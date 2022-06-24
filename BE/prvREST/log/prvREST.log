@@ -1,0 +1,118 @@
+2022-06-16 12:01:28,193 INFO ||[StartupInfoLogger.java:55][logStarting] Starting PrvApplication on PC-ANDREA-COTTONE with PID 7812 (C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST\target\classes started by andre in C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST)
+2022-06-16 12:01:28,214 DEBUG||[StartupInfoLogger.java:56][logStarting] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.7.RELEASE
+2022-06-16 12:01:28,215 INFO ||[SpringApplication.java:651][logStartupProfileInfo] No active profile set, falling back to default profiles: default
+2022-06-16 12:01:47,011 INFO ||[StartupInfoLogger.java:61][logStarted] Started PrvApplication in 19.55 seconds (JVM running for 22.539)
+2022-06-16 12:01:47,116 INFO |MAIN|[PrvApplication.java:34][run] Application started args=
+2022-06-16 12:04:01,548 DEBUG||[CORSFilter.java:39][doFilter] request=OPTIONS /oauth/token, resp=org.apache.catalina.connector.ResponseFacade@58556130, accessControlAllowHeaders=authorization
+2022-06-16 12:04:01,551 DEBUG||[CORSFilter.java:39][doFilter] request=GET /utente/a.cottone, resp=org.apache.catalina.connector.ResponseFacade@1492f7ba, accessControlAllowHeaders=null
+2022-06-16 12:04:01,553 DEBUG||[CORSFilter.java:42][doFilter] accessControlAllowHeaders IS NOT BLANK
+2022-06-16 12:04:01,570 DEBUG||[CORSFilter.java:39][doFilter] request=POST /oauth/token, resp=org.apache.catalina.connector.ResponseFacade@58556130, accessControlAllowHeaders=null
+2022-06-16 12:04:01,829 DEBUG|1655373841823_36|[UtenteController.java:213][getUtenteByEmailOrId] START - GetUser by = a.cottone
+2022-06-16 12:04:02,264 INFO |1655373841823_36|[UtenteService.java:446][loadUserByUsernameOrEmail] COPYPROPERTIES DONE - from= Utente{id=58, companyId=1, firstName=Andreaa, lastName=Cottone, username=a.cottone, password=$2a$10$rb3DixM5XxCORKBSKENle.SwHuG6CzDSeLQEE3zXWtre2vshB6rPq, email=a.cottone@rjcsoft.it, statusValue=ACTIVE, createdDate=2021-09-13 00:00:00.0, modifiedDate=2022-03-22 00:00:00.0, roleValue=ADMIN, contactPerson=true, otp=129dbd36-2d1d-45a9-a053-0acb4a9cc0c0, expirationOtp=2021-10-29 11:14:25.0} to =UtenteDTO{id=58, companyId=1, firstName=Andreaa, lastName=Cottone, username=a.cottone, email=a.cottone@rjcsoft.it, statusValue=ACTIVE, createdDate=Mon Sep 13 00:00:00 CEST 2021, modifiedDate=Tue Mar 22 00:00:00 CET 2022, roleValue=ADMIN, contactPerson=true}
+2022-06-16 12:04:02,265 INFO |1655373841823_36|[UtenteController.java:217][getUtenteByEmailOrId] loadBy DONE
+2022-06-16 12:04:02,323 INFO ||[UtenteService.java:462][loadUserByUsername] User with username=a.cottone trying to log-in
+2022-06-16 12:04:02,850 DEBUG||[CORSFilter.java:39][doFilter] request=GET /azienda/getAziendaById/1, resp=org.apache.catalina.connector.ResponseFacade@58556130, accessControlAllowHeaders=null
+2022-06-16 12:04:02,859 DEBUG||[CORSFilter.java:39][doFilter] request=OPTIONS /utente/a.cottone, resp=org.apache.catalina.connector.ResponseFacade@1492f7ba, accessControlAllowHeaders=authorization
+2022-06-16 12:04:02,859 DEBUG||[CORSFilter.java:42][doFilter] accessControlAllowHeaders IS NOT BLANK
+2022-06-16 12:04:02,865 DEBUG||[CORSFilter.java:39][doFilter] request=GET /utente/a.cottone, resp=org.apache.catalina.connector.ResponseFacade@1492f7ba, accessControlAllowHeaders=null
+2022-06-16 12:04:02,985 DEBUG|1655373842985_68|[UtenteController.java:213][getUtenteByEmailOrId] START - GetUser by = a.cottone
+2022-06-16 12:04:02,987 INFO |1655373842868_85|[AziendaController.java:149][getAziendaById] Azienda con id = 1 Trovata!
+2022-06-16 12:04:03,004 INFO |1655373842868_85|[AziendaController.java:152][getAziendaById] Proprietà Copiate!
+2022-06-16 12:04:03,014 INFO |1655373842985_68|[UtenteService.java:446][loadUserByUsernameOrEmail] COPYPROPERTIES DONE - from= Utente{id=58, companyId=1, firstName=Andreaa, lastName=Cottone, username=a.cottone, password=$2a$10$rb3DixM5XxCORKBSKENle.SwHuG6CzDSeLQEE3zXWtre2vshB6rPq, email=a.cottone@rjcsoft.it, statusValue=ACTIVE, createdDate=2021-09-13 00:00:00.0, modifiedDate=2022-03-22 00:00:00.0, roleValue=ADMIN, contactPerson=true, otp=129dbd36-2d1d-45a9-a053-0acb4a9cc0c0, expirationOtp=2021-10-29 11:14:25.0} to =UtenteDTO{id=58, companyId=1, firstName=Andreaa, lastName=Cottone, username=a.cottone, email=a.cottone@rjcsoft.it, statusValue=ACTIVE, createdDate=Mon Sep 13 00:00:00 CEST 2021, modifiedDate=Tue Mar 22 00:00:00 CET 2022, roleValue=ADMIN, contactPerson=true}
+2022-06-16 12:04:03,015 INFO |1655373842985_68|[UtenteController.java:217][getUtenteByEmailOrId] loadBy DONE
+2022-06-16 12:17:02,141 INFO ||[StartupInfoLogger.java:55][logStarting] Starting PrvApplication on PC-ANDREA-COTTONE with PID 7812 (C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST\target\classes started by andre in C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST)
+2022-06-16 12:17:02,141 DEBUG||[StartupInfoLogger.java:56][logStarting] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.7.RELEASE
+2022-06-16 12:17:02,142 INFO ||[SpringApplication.java:651][logStartupProfileInfo] No active profile set, falling back to default profiles: default
+2022-06-16 12:17:02,510 ERROR||[SpringApplication.java:837][reportFailure] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [it.rjcsoft.prv.PrvApplication]; nested exception is java.io.FileNotFoundException: class path resource [it/rjcsoft/prv/controller/BaseController.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at it.rjcsoft.prv.PrvApplication.main(PrvApplication.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [it/rjcsoft/prv/controller/BaseController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:695)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:1009)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:340)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 19 common frames omitted
+2022-06-16 12:17:06,685 INFO ||[StartupInfoLogger.java:55][logStarting] Starting PrvApplication on PC-ANDREA-COTTONE with PID 7812 (C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST\target\classes started by andre in C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST)
+2022-06-16 12:17:06,686 DEBUG||[StartupInfoLogger.java:56][logStarting] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.7.RELEASE
+2022-06-16 12:17:06,687 INFO ||[SpringApplication.java:651][logStartupProfileInfo] No active profile set, falling back to default profiles: default
+2022-06-16 12:17:06,776 ERROR||[SpringApplication.java:837][reportFailure] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [it.rjcsoft.prv.PrvApplication]; nested exception is java.io.FileNotFoundException: class path resource [it/rjcsoft/prv/controller/BaseController.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at it.rjcsoft.prv.PrvApplication.main(PrvApplication.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [it/rjcsoft/prv/controller/BaseController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:695)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:1009)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:340)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 19 common frames omitted
+2022-06-16 12:17:20,744 INFO ||[StartupInfoLogger.java:55][logStarting] Starting PrvApplication on PC-ANDREA-COTTONE with PID 7812 (C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST\target\classes started by andre in C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST)
+2022-06-16 12:17:20,745 DEBUG||[StartupInfoLogger.java:56][logStarting] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.7.RELEASE
+2022-06-16 12:17:20,745 INFO ||[SpringApplication.java:651][logStartupProfileInfo] No active profile set, falling back to default profiles: default
+2022-06-16 12:18:17,131 INFO ||[StartupInfoLogger.java:61][logStarted] Started PrvApplication in 56.487 seconds (JVM running for 1012.659)
+2022-06-16 12:18:17,134 INFO |MAIN|[PrvApplication.java:34][run] Application started args=
+2022-06-16 12:18:21,516 INFO ||[StartupInfoLogger.java:55][logStarting] Starting PrvApplication on PC-ANDREA-COTTONE with PID 7812 (C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST\target\classes started by andre in C:\Users\andre\PortoDiRavenna\trunk\BE\prvREST)
+2022-06-16 12:18:21,517 DEBUG||[StartupInfoLogger.java:56][logStarting] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.7.RELEASE
+2022-06-16 12:18:21,518 INFO ||[SpringApplication.java:651][logStartupProfileInfo] No active profile set, falling back to default profiles: default
+2022-06-16 12:18:30,871 INFO ||[StartupInfoLogger.java:61][logStarted] Started PrvApplication in 9.721 seconds (JVM running for 1026.398)
+2022-06-16 12:18:30,873 INFO |MAIN|[PrvApplication.java:34][run] Application started args=

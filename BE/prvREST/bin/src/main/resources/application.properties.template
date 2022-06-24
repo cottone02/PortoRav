@@ -1,0 +1,36 @@
+spring.jackson.default-property-inclusion = NON_NULL
+
+spring.datasource.url = jdbc:postgresql://sviluppo.rjcsoft.it:5432/portoravdb
+spring.datasource.username = portoravuser
+spring.datasource.password = <password>
+
+# HikariCP settings
+spring.datasource.hikari.connection-timeout=60000
+spring.datasource.hikari.maximum-pool-size=20
+#spring.datasource.hikari.connection-init-sql=ALTER SESSION SET CURRENT_SCHEMA = <yourschema>
+
+server.port=8081
+
+# Enable multipart uploads
+spring.servlet.multipart.enabled=true
+# Threshold after which files are written to disk.
+spring.servlet.multipart.file-size-threshold=5MB
+# Max file size.
+spring.servlet.multipart.max-file-size=200MB
+# Max Request Size
+spring.servlet.multipart.max-request-size=5MB
+
+spring.mail.host=smtp.office365.com
+spring.mail.port=587
+spring.mail.username=noreply@rjcsoft.it
+spring.mail.password=<password_mail>
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+app.file_base_path = ./files/forms/
+app.monitoring_base_path = ./files/monitorings/
+app.documents_base_path = ./files/documents/
+app.num_file_type = 2
+app.base_url = http://localhost:4200
+app.email_from=noreply@rjcsoft.it
+app.email_developers=f.castroraobarba@rjcsoft.it,v.chiumiento@rjcsoft.it

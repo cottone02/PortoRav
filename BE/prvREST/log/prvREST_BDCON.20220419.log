@@ -1,0 +1,650 @@
+2022-04-19 10:06:20,758 DEBUG||[HikariConfig.java:946][attemptFromContextLoader] Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7679641c
+2022-04-19 10:06:20,907 DEBUG||[HikariConfig.java:1066][logConfiguration] HikariPool-1 - configuration:
+2022-04-19 10:06:20,910 DEBUG||[HikariConfig.java:1098][logConfiguration] allowPoolSuspension.............false
+2022-04-19 10:06:20,910 DEBUG||[HikariConfig.java:1098][logConfiguration] autoCommit......................true
+2022-04-19 10:06:20,911 DEBUG||[HikariConfig.java:1098][logConfiguration] catalog.........................none
+2022-04-19 10:06:20,912 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionInitSql...............none
+2022-04-19 10:06:20,912 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionTestQuery.............none
+2022-04-19 10:06:20,913 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionTimeout...............60000
+2022-04-19 10:06:20,913 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSource......................none
+2022-04-19 10:06:20,913 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceClassName.............none
+2022-04-19 10:06:20,914 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceJNDI..................none
+2022-04-19 10:06:20,914 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceProperties............{password=<masked>}
+2022-04-19 10:06:20,915 DEBUG||[HikariConfig.java:1098][logConfiguration] driverClassName................."org.postgresql.Driver"
+2022-04-19 10:06:20,915 DEBUG||[HikariConfig.java:1098][logConfiguration] exceptionOverrideClassName......none
+2022-04-19 10:06:20,915 DEBUG||[HikariConfig.java:1098][logConfiguration] healthCheckProperties...........{}
+2022-04-19 10:06:20,915 DEBUG||[HikariConfig.java:1098][logConfiguration] healthCheckRegistry.............none
+2022-04-19 10:06:20,916 DEBUG||[HikariConfig.java:1098][logConfiguration] idleTimeout.....................600000
+2022-04-19 10:06:20,916 DEBUG||[HikariConfig.java:1098][logConfiguration] initializationFailTimeout.......1
+2022-04-19 10:06:20,916 DEBUG||[HikariConfig.java:1098][logConfiguration] isolateInternalQueries..........false
+2022-04-19 10:06:20,917 DEBUG||[HikariConfig.java:1098][logConfiguration] jdbcUrl.........................jdbc:postgresql://sviluppo.rjcsoft.it:5432/portoravdb
+2022-04-19 10:06:20,917 DEBUG||[HikariConfig.java:1098][logConfiguration] leakDetectionThreshold..........0
+2022-04-19 10:06:20,917 DEBUG||[HikariConfig.java:1098][logConfiguration] maxLifetime.....................1800000
+2022-04-19 10:06:20,917 DEBUG||[HikariConfig.java:1098][logConfiguration] maximumPoolSize.................20
+2022-04-19 10:06:20,918 DEBUG||[HikariConfig.java:1098][logConfiguration] metricRegistry..................none
+2022-04-19 10:06:20,918 DEBUG||[HikariConfig.java:1098][logConfiguration] metricsTrackerFactory...........none
+2022-04-19 10:06:20,918 DEBUG||[HikariConfig.java:1098][logConfiguration] minimumIdle.....................20
+2022-04-19 10:06:20,918 DEBUG||[HikariConfig.java:1098][logConfiguration] password........................<masked>
+2022-04-19 10:06:20,919 DEBUG||[HikariConfig.java:1098][logConfiguration] poolName........................"HikariPool-1"
+2022-04-19 10:06:20,919 DEBUG||[HikariConfig.java:1098][logConfiguration] readOnly........................false
+2022-04-19 10:06:20,919 DEBUG||[HikariConfig.java:1098][logConfiguration] registerMbeans..................false
+2022-04-19 10:06:20,920 DEBUG||[HikariConfig.java:1098][logConfiguration] scheduledExecutor...............none
+2022-04-19 10:06:20,921 DEBUG||[HikariConfig.java:1098][logConfiguration] schema..........................none
+2022-04-19 10:06:20,921 DEBUG||[HikariConfig.java:1098][logConfiguration] threadFactory...................internal
+2022-04-19 10:06:20,922 DEBUG||[HikariConfig.java:1098][logConfiguration] transactionIsolation............default
+2022-04-19 10:06:20,922 DEBUG||[HikariConfig.java:1098][logConfiguration] username........................"portoravuser"
+2022-04-19 10:06:20,922 DEBUG||[HikariConfig.java:1098][logConfiguration] validationTimeout...............5000
+2022-04-19 10:06:20,923 INFO ||[HikariDataSource.java:110][getConnection] HikariPool-1 - Starting...
+2022-04-19 10:06:21,109 DEBUG||[HikariPool.java:564][checkFailFast] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@151c75e1
+2022-04-19 10:06:21,112 INFO ||[HikariDataSource.java:123][getConnection] HikariPool-1 - Start completed.
+2022-04-19 10:06:21,226 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-04-19 10:06:21,251 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c46c3fe
+2022-04-19 10:06:21,286 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62812006
+2022-04-19 10:06:21,313 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66bea88e
+2022-04-19 10:06:21,347 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23bc2a3d
+2022-04-19 10:06:21,379 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@793f4487
+2022-04-19 10:06:21,437 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12d5cab6
+2022-04-19 10:06:21,454 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bcfaba
+2022-04-19 10:06:21,486 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4393d572
+2022-04-19 10:06:21,512 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@408baafb
+2022-04-19 10:06:21,544 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c374826
+2022-04-19 10:06:21,577 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ab81430
+2022-04-19 10:06:21,609 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47dd6a50
+2022-04-19 10:06:21,629 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a9ccc22
+2022-04-19 10:06:21,666 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cacd92f
+2022-04-19 10:06:21,702 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@568d16de
+2022-04-19 10:06:21,729 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c12c881
+2022-04-19 10:06:21,792 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10792daa
+2022-04-19 10:06:21,827 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bed52ae
+2022-04-19 10:06:21,858 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25689ceb
+2022-04-19 10:06:21,859 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:06:51,242 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:06:51,243 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:07:21,252 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:07:21,253 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:07:51,268 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:07:51,269 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:08:21,283 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:08:21,283 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:08:51,297 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:08:51,298 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:09:21,304 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:09:21,304 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:09:51,319 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:09:51,320 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:10:21,337 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:10:21,337 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:10:51,348 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:10:51,349 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:11:21,366 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:11:21,367 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:11:51,371 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:11:51,371 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:12:21,384 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:12:21,385 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:12:51,399 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:12:51,400 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:13:21,403 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:13:21,403 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:13:51,408 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:13:51,410 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:14:21,420 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:14:21,421 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:14:51,429 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:14:51,429 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:15:21,450 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2022-04-19 10:15:21,450 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:15:24,594 WARN |1650356119575_42|[PoolBase.java:184][isConnectionAlive] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6c46c3fe (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2022-04-19 10:15:24,597 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c46c3fe: (connection is dead)
+2022-04-19 10:15:24,626 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:24,627 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 250ms
+2022-04-19 10:15:24,894 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:24,895 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 375ms
+2022-04-19 10:15:25,281 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:25,281 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 562ms
+2022-04-19 10:15:25,846 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:25,847 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 843ms
+2022-04-19 10:15:26,690 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:26,691 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 1264ms
+2022-04-19 10:15:27,956 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:27,957 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 1896ms
+2022-04-19 10:15:29,856 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:29,857 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 2844ms
+2022-04-19 10:15:32,703 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: Il tentativo di connessione è fallito.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:315)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: sviluppo.rjcsoft.it
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:231)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:95)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	... 15 common frames omitted
+2022-04-19 10:15:32,705 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 4266ms
+2022-04-19 10:15:36,988 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@451ee9ce
+2022-04-19 10:15:36,988 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:15:51,458 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:15:51,458 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:16:21,459 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:16:21,460 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:16:51,469 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:16:51,470 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:17:21,473 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:17:21,474 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:17:51,476 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:17:51,477 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:18:21,484 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:18:21,485 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:18:51,490 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:18:51,490 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:19:21,496 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:19:21,496 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:19:51,500 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:19:51,501 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:20:21,515 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:20:21,516 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:20:51,529 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:20:51,529 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:21:21,546 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:21:21,547 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:21:51,573 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:21:51,573 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:22:21,577 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:22:21,577 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:22:51,585 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:22:51,586 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:23:21,587 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:23:21,587 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:23:51,595 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:23:51,595 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:24:21,609 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:24:21,609 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:24:51,611 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:24:51,611 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:25:21,616 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:25:21,618 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:25:51,622 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:25:51,622 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:26:21,631 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:26:21,632 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:26:51,643 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:26:51,644 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:27:21,655 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:27:21,655 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:27:51,664 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:27:51,664 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:28:21,680 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:28:21,680 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:28:51,688 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:28:51,688 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:29:21,688 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:29:21,688 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:29:51,699 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:29:51,699 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:30:21,701 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:30:21,702 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:30:51,703 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:30:51,704 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:31:21,717 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:31:21,718 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:31:51,721 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:31:51,722 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:32:21,732 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:32:21,733 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:32:51,742 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:32:51,743 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:33:21,755 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:33:21,757 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:33:51,759 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:33:51,760 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:34:21,764 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:34:21,764 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:34:51,766 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:34:51,767 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:35:21,773 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:35:21,774 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:35:42,056 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5a9ccc22: (connection has passed maxLifetime)
+2022-04-19 10:35:42,127 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72955698
+2022-04-19 10:35:43,940 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@66bea88e: (connection has passed maxLifetime)
+2022-04-19 10:35:43,956 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c52b6ba
+2022-04-19 10:35:47,888 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@10792daa: (connection has passed maxLifetime)
+2022-04-19 10:35:47,907 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@786d3de8
+2022-04-19 10:35:48,381 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@23bc2a3d: (connection has passed maxLifetime)
+2022-04-19 10:35:48,397 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d6fbc81
+2022-04-19 10:35:48,881 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2c12c881: (connection has passed maxLifetime)
+2022-04-19 10:35:48,897 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65160c22
+2022-04-19 10:35:51,786 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:35:51,787 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:35:55,205 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@793f4487: (connection has passed maxLifetime)
+2022-04-19 10:35:55,225 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d78a6ff
+2022-04-19 10:35:56,490 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1bcfaba: (connection has passed maxLifetime)
+2022-04-19 10:35:56,504 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63bf4520
+2022-04-19 10:35:56,741 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@25689ceb: (connection has passed maxLifetime)
+2022-04-19 10:35:56,776 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6780cd8f
+2022-04-19 10:35:58,191 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4393d572: (connection has passed maxLifetime)
+2022-04-19 10:35:58,206 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22824f1b
+2022-04-19 10:35:59,485 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@408baafb: (connection has passed maxLifetime)
+2022-04-19 10:35:59,516 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@151c75e1: (connection has passed maxLifetime)
+2022-04-19 10:35:59,516 DEBUG||[HikariPool.java:342][addBagItem] HikariPool-1 - Add connection elided, waiting 0, queue 1
+2022-04-19 10:35:59,576 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ae55aea
+2022-04-19 10:35:59,592 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13ea88d3
+2022-04-19 10:35:59,592 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:36:01,386 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@47dd6a50: (connection has passed maxLifetime)
+2022-04-19 10:36:01,404 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7267c394
+2022-04-19 10:36:02,615 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1bed52ae: (connection has passed maxLifetime)
+2022-04-19 10:36:02,633 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42adb054
+2022-04-19 10:36:05,839 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@62812006: (connection has passed maxLifetime)
+2022-04-19 10:36:05,885 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62bf90e1
+2022-04-19 10:36:06,210 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7c374826: (connection has passed maxLifetime)
+2022-04-19 10:36:06,224 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25d43075
+2022-04-19 10:36:08,688 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1cacd92f: (connection has passed maxLifetime)
+2022-04-19 10:36:08,708 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69632c38
+2022-04-19 10:36:12,855 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1ab81430: (connection has passed maxLifetime)
+2022-04-19 10:36:12,872 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46e30e50
+2022-04-19 10:36:19,250 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@568d16de: (connection has passed maxLifetime)
+2022-04-19 10:36:19,310 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62c220fa
+2022-04-19 10:36:20,305 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@12d5cab6: (connection has passed maxLifetime)
+2022-04-19 10:36:20,320 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c05c2d2
+2022-04-19 10:36:21,791 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:36:21,791 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:36:51,806 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:36:51,807 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:37:21,811 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:37:21,811 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:37:51,816 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:37:51,817 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:38:21,829 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:38:21,829 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:38:51,845 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:38:51,845 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:39:21,859 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:39:21,860 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:39:51,864 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:39:51,865 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:40:21,869 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:40:21,869 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:40:51,877 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:40:51,877 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:41:21,881 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:41:21,882 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:41:51,891 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:41:51,892 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:42:21,905 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:42:21,905 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:42:51,913 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:42:51,913 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:43:21,921 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:43:21,922 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:43:51,924 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:43:51,924 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:44:21,939 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:44:21,940 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:44:51,944 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:44:51,945 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:45:21,953 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:45:21,954 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:45:35,395 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@451ee9ce: (connection has passed maxLifetime)
+2022-04-19 10:45:35,466 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74ae934f
+2022-04-19 10:45:51,965 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:45:51,966 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:46:21,977 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:46:21,978 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:46:51,992 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:46:51,993 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:47:22,001 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:47:22,001 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:47:52,012 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:47:52,012 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:48:22,026 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:48:22,027 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:48:52,033 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:48:52,034 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:49:22,036 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:49:22,037 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:49:52,049 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:49:52,050 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:50:22,052 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:50:22,053 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:50:52,064 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:50:52,065 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:51:22,072 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:51:22,073 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:51:52,079 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:51:52,079 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:52:22,087 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:52:22,088 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:52:52,094 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:52:52,094 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:53:22,108 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:53:22,108 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:53:52,112 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:53:52,113 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:54:22,124 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:54:22,125 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:54:52,134 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:54:52,135 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:55:22,138 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:55:22,139 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:55:52,145 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:55:52,146 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:56:22,159 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:56:22,160 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:56:52,176 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:56:52,176 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:57:22,181 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:57:22,182 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:57:52,194 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:57:52,195 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:58:22,209 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:58:22,210 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:58:52,227 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:58:52,228 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:59:22,232 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:59:22,232 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 10:59:52,247 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 10:59:52,248 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:00:22,250 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:00:22,251 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:00:52,255 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:00:52,256 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:01:22,262 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:01:22,264 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:01:52,266 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:01:52,267 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:02:22,280 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:02:22,280 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:02:52,292 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:02:52,292 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:03:22,301 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:03:22,301 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:03:52,314 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:03:52,315 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:04:22,323 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:04:22,324 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:04:52,332 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:04:52,333 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:05:16,154 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@72955698: (connection has passed maxLifetime)
+2022-04-19 11:05:16,176 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b1f7d46
+2022-04-19 11:05:19,045 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3d6fbc81: (connection has passed maxLifetime)
+2022-04-19 11:05:19,064 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65d88e55
+2022-04-19 11:05:22,349 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:05:22,349 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:05:23,437 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6d78a6ff: (connection has passed maxLifetime)
+2022-04-19 11:05:23,452 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61e71636
+2022-04-19 11:05:24,753 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@22824f1b: (connection has passed maxLifetime)
+2022-04-19 11:05:24,773 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24e5846e
+2022-04-19 11:05:25,714 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7c52b6ba: (connection has passed maxLifetime)
+2022-04-19 11:05:25,729 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@348028f9
+2022-04-19 11:05:27,910 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@786d3de8: (connection has passed maxLifetime)
+2022-04-19 11:05:27,925 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@150ba21a
+2022-04-19 11:05:29,247 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6780cd8f: (connection has passed maxLifetime)
+2022-04-19 11:05:29,265 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c84502b
+2022-04-19 11:05:29,896 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@69632c38: (connection has passed maxLifetime)
+2022-04-19 11:05:29,915 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44ca7b21
+2022-04-19 11:05:32,923 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@62bf90e1: (connection has passed maxLifetime)
+2022-04-19 11:05:32,940 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@713854a1
+2022-04-19 11:05:35,802 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@42adb054: (connection has passed maxLifetime)
+2022-04-19 11:05:35,819 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@396b33ee
+2022-04-19 11:05:36,475 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@25d43075: (connection has passed maxLifetime)
+2022-04-19 11:05:36,490 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@578039e0
+2022-04-19 11:05:42,143 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@ae55aea: (connection has passed maxLifetime)
+2022-04-19 11:05:42,162 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2320545b
+2022-04-19 11:05:44,754 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@65160c22: (connection has passed maxLifetime)
+2022-04-19 11:05:44,774 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2de7ae4f
+2022-04-19 11:05:49,498 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@13ea88d3: (connection has passed maxLifetime)
+2022-04-19 11:05:49,523 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29d83f2b
+2022-04-19 11:05:51,617 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@63bf4520: (connection has passed maxLifetime)
+2022-04-19 11:05:51,637 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cdaa474
+2022-04-19 11:05:52,353 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:05:52,354 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:05:54,238 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7267c394: (connection has passed maxLifetime)
+2022-04-19 11:05:54,254 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d79b738
+2022-04-19 11:06:00,610 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@62c220fa: (connection has passed maxLifetime)
+2022-04-19 11:06:00,628 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5920204f
+2022-04-19 11:06:11,570 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@46e30e50: (connection has passed maxLifetime)
+2022-04-19 11:06:11,584 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b78a671
+2022-04-19 11:06:16,355 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c05c2d2: (connection has passed maxLifetime)
+2022-04-19 11:06:16,375 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25bf5d6e
+2022-04-19 11:06:22,363 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:06:22,364 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:06:52,379 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:06:52,380 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:07:22,395 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:07:22,397 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:07:52,399 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:07:52,400 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:08:22,413 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:08:22,413 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:08:52,421 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:08:52,423 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:09:22,439 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:09:22,440 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:09:52,452 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:09:52,452 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:10:22,462 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:10:22,463 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:10:52,477 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:10:52,477 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:11:22,484 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:11:22,485 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:11:52,492 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:11:52,493 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:12:22,508 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:12:22,509 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:12:52,516 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:12:52,516 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:13:22,519 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:13:22,519 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:13:52,533 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:13:52,534 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:14:22,547 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:14:22,548 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:14:52,550 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:14:52,550 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:15:21,456 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@74ae934f: (connection has passed maxLifetime)
+2022-04-19 11:15:21,496 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52002b54
+2022-04-19 11:15:22,555 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:15:22,555 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:15:52,568 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:15:52,569 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-19 11:16:22,571 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-19 11:16:22,571 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.

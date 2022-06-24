@@ -1,0 +1,1610 @@
+2022-04-04 11:29:47,731 DEBUG||[HikariConfig.java:946][attemptFromContextLoader] Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@50dee595
+2022-04-04 11:29:47,893 DEBUG||[HikariConfig.java:1066][logConfiguration] HikariPool-1 - configuration:
+2022-04-04 11:29:47,896 DEBUG||[HikariConfig.java:1098][logConfiguration] allowPoolSuspension.............false
+2022-04-04 11:29:47,897 DEBUG||[HikariConfig.java:1098][logConfiguration] autoCommit......................true
+2022-04-04 11:29:47,897 DEBUG||[HikariConfig.java:1098][logConfiguration] catalog.........................none
+2022-04-04 11:29:47,899 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionInitSql...............none
+2022-04-04 11:29:47,899 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionTestQuery.............none
+2022-04-04 11:29:47,899 DEBUG||[HikariConfig.java:1098][logConfiguration] connectionTimeout...............60000
+2022-04-04 11:29:47,899 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSource......................none
+2022-04-04 11:29:47,900 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceClassName.............none
+2022-04-04 11:29:47,900 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceJNDI..................none
+2022-04-04 11:29:47,900 DEBUG||[HikariConfig.java:1098][logConfiguration] dataSourceProperties............{password=<masked>}
+2022-04-04 11:29:47,901 DEBUG||[HikariConfig.java:1098][logConfiguration] driverClassName................."org.postgresql.Driver"
+2022-04-04 11:29:47,901 DEBUG||[HikariConfig.java:1098][logConfiguration] exceptionOverrideClassName......none
+2022-04-04 11:29:47,901 DEBUG||[HikariConfig.java:1098][logConfiguration] healthCheckProperties...........{}
+2022-04-04 11:29:47,901 DEBUG||[HikariConfig.java:1098][logConfiguration] healthCheckRegistry.............none
+2022-04-04 11:29:47,902 DEBUG||[HikariConfig.java:1098][logConfiguration] idleTimeout.....................600000
+2022-04-04 11:29:47,902 DEBUG||[HikariConfig.java:1098][logConfiguration] initializationFailTimeout.......1
+2022-04-04 11:29:47,903 DEBUG||[HikariConfig.java:1098][logConfiguration] isolateInternalQueries..........false
+2022-04-04 11:29:47,903 DEBUG||[HikariConfig.java:1098][logConfiguration] jdbcUrl.........................jdbc:postgresql://sviluppo.rjcsoft.it:5432/portoravdb
+2022-04-04 11:29:47,904 DEBUG||[HikariConfig.java:1098][logConfiguration] leakDetectionThreshold..........0
+2022-04-04 11:29:47,904 DEBUG||[HikariConfig.java:1098][logConfiguration] maxLifetime.....................1800000
+2022-04-04 11:29:47,904 DEBUG||[HikariConfig.java:1098][logConfiguration] maximumPoolSize.................20
+2022-04-04 11:29:47,905 DEBUG||[HikariConfig.java:1098][logConfiguration] metricRegistry..................none
+2022-04-04 11:29:47,905 DEBUG||[HikariConfig.java:1098][logConfiguration] metricsTrackerFactory...........none
+2022-04-04 11:29:47,905 DEBUG||[HikariConfig.java:1098][logConfiguration] minimumIdle.....................20
+2022-04-04 11:29:47,905 DEBUG||[HikariConfig.java:1098][logConfiguration] password........................<masked>
+2022-04-04 11:29:47,906 DEBUG||[HikariConfig.java:1098][logConfiguration] poolName........................"HikariPool-1"
+2022-04-04 11:29:47,906 DEBUG||[HikariConfig.java:1098][logConfiguration] readOnly........................false
+2022-04-04 11:29:47,906 DEBUG||[HikariConfig.java:1098][logConfiguration] registerMbeans..................false
+2022-04-04 11:29:47,906 DEBUG||[HikariConfig.java:1098][logConfiguration] scheduledExecutor...............none
+2022-04-04 11:29:47,907 DEBUG||[HikariConfig.java:1098][logConfiguration] schema..........................none
+2022-04-04 11:29:47,907 DEBUG||[HikariConfig.java:1098][logConfiguration] threadFactory...................internal
+2022-04-04 11:29:47,907 DEBUG||[HikariConfig.java:1098][logConfiguration] transactionIsolation............default
+2022-04-04 11:29:47,907 DEBUG||[HikariConfig.java:1098][logConfiguration] username........................"portoravuser"
+2022-04-04 11:29:47,908 DEBUG||[HikariConfig.java:1098][logConfiguration] validationTimeout...............5000
+2022-04-04 11:29:47,909 INFO ||[HikariDataSource.java:110][getConnection] HikariPool-1 - Starting...
+2022-04-04 11:29:48,136 DEBUG||[HikariPool.java:564][checkFailFast] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e270690
+2022-04-04 11:29:48,138 INFO ||[HikariDataSource.java:123][getConnection] HikariPool-1 - Start completed.
+2022-04-04 11:29:48,250 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-04-04 11:29:48,296 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54f704f0
+2022-04-04 11:29:48,339 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a30f01e
+2022-04-04 11:29:48,384 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e0f6f80
+2022-04-04 11:29:48,416 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b0dfa25
+2022-04-04 11:29:48,452 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7731bd30
+2022-04-04 11:29:48,506 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2adc03c8
+2022-04-04 11:29:48,551 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f0a1a7c
+2022-04-04 11:29:48,609 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b22056a
+2022-04-04 11:29:48,666 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@100ef03
+2022-04-04 11:29:48,701 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b087ea8
+2022-04-04 11:29:48,733 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@140e544f
+2022-04-04 11:29:48,792 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f6c1af1
+2022-04-04 11:29:48,835 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79928ae8
+2022-04-04 11:29:48,881 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7167464c
+2022-04-04 11:29:48,934 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6521fda6
+2022-04-04 11:29:48,956 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e3f9268
+2022-04-04 11:29:48,996 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57ab3a7c
+2022-04-04 11:29:49,046 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10797ed7
+2022-04-04 11:29:49,064 DEBUG||[PoolBase.java:372][newConnection] HikariPool-1 - Failed to create/setup connection: FATALE: spiacente, troppi client già connessi
+2022-04-04 11:29:49,067 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:49,068 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 250ms
+2022-04-04 11:29:49,348 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:49,348 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 375ms
+2022-04-04 11:29:49,775 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:49,776 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 562ms
+2022-04-04 11:29:50,347 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:50,347 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 843ms
+2022-04-04 11:29:51,195 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:51,195 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 1264ms
+2022-04-04 11:29:52,467 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:52,467 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 1896ms
+2022-04-04 11:29:54,369 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:54,369 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 2844ms
+2022-04-04 11:29:57,221 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:29:57,222 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 4266ms
+2022-04-04 11:30:01,496 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:01,498 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 6399ms
+2022-04-04 11:30:07,932 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:07,933 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 9598ms
+2022-04-04 11:30:17,565 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:17,566 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:30:18,254 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+2022-04-04 11:30:27,596 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:27,597 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:30:37,629 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:37,629 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:30:47,644 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:47,645 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:30:48,268 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+2022-04-04 11:30:48,269 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:30:57,670 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:30:57,671 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:31:07,697 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:31:07,697 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:31:17,721 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:31:17,721 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:31:18,275 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+2022-04-04 11:31:18,276 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:31:27,747 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 11:31:27,747 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 10000ms
+2022-04-04 11:31:37,777 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18de1016
+2022-04-04 11:31:37,777 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:31:48,284 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:31:48,284 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:32:18,295 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:32:18,295 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:32:48,296 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:32:48,296 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:33:18,310 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:33:18,310 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:33:48,312 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:33:48,313 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:34:18,318 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:34:18,319 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:34:48,329 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:34:48,330 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:35:18,333 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:35:18,334 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:35:48,348 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:35:48,350 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:36:18,352 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:36:18,353 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:36:48,355 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:36:48,355 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:37:18,369 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:37:18,370 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:37:48,374 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:37:48,375 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:38:18,379 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:38:18,380 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:38:48,390 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:38:48,390 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:39:18,401 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:39:18,402 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:39:48,409 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:39:48,411 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:40:18,421 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:40:18,421 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:40:48,434 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:40:48,435 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:41:18,447 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:41:18,448 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:41:48,463 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:41:48,463 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:42:18,474 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:42:18,474 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:42:48,481 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:42:48,482 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:43:18,496 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:43:18,497 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:43:48,499 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:43:48,500 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:44:18,503 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:44:18,504 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:44:48,507 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:44:48,508 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:45:18,509 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:45:18,509 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:45:48,520 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:45:48,521 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:46:18,532 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:46:18,533 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:46:48,547 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:46:48,547 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:47:18,552 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:47:18,553 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:47:48,560 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:47:48,560 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:48:18,564 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:48:18,564 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:48:48,567 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:48:48,568 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:49:18,584 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:49:18,584 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:49:48,595 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:49:48,596 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:50:18,601 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:50:18,602 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:50:48,605 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:50:48,606 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:51:18,622 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:51:18,624 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:51:48,634 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:51:48,635 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:52:18,636 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:52:18,637 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:52:48,650 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:52:48,652 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:53:18,658 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:53:18,659 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:53:48,668 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:53:48,669 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:54:18,674 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:54:18,674 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:54:48,686 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:54:48,686 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:55:18,687 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:55:18,688 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:55:48,696 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:55:48,697 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:56:18,709 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:56:18,710 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:56:48,724 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:56:48,724 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:57:18,730 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:57:18,731 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:57:48,745 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:57:48,746 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:58:18,749 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:58:18,750 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:58:48,765 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:58:48,766 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:59:03,539 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2adc03c8: (connection has passed maxLifetime)
+2022-04-04 11:59:03,622 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dd4693d
+2022-04-04 11:59:08,037 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7f6c1af1: (connection has passed maxLifetime)
+2022-04-04 11:59:08,060 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53138cf7
+2022-04-04 11:59:08,854 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@10797ed7: (connection has passed maxLifetime)
+2022-04-04 11:59:08,877 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@572c024d
+2022-04-04 11:59:12,045 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@e270690: (connection has passed maxLifetime)
+2022-04-04 11:59:12,067 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@122e86cc
+2022-04-04 11:59:12,403 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1b0dfa25: (connection has passed maxLifetime)
+2022-04-04 11:59:12,421 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ccd9835
+2022-04-04 11:59:18,302 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5e0f6f80: (connection has passed maxLifetime)
+2022-04-04 11:59:18,322 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f8613f1
+2022-04-04 11:59:18,773 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:59:18,775 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 11:59:18,804 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6521fda6: (connection has passed maxLifetime)
+2022-04-04 11:59:18,832 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1141fe71
+2022-04-04 11:59:18,913 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@140e544f: (connection has passed maxLifetime)
+2022-04-04 11:59:18,932 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@157e7881
+2022-04-04 11:59:19,430 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7167464c: (connection has passed maxLifetime)
+2022-04-04 11:59:19,450 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@507cf44a
+2022-04-04 11:59:21,821 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7731bd30: (connection has passed maxLifetime)
+2022-04-04 11:59:21,845 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fca7c2f
+2022-04-04 11:59:22,984 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4b087ea8: (connection has passed maxLifetime)
+2022-04-04 11:59:23,018 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6166a7d1
+2022-04-04 11:59:25,862 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@100ef03: (connection has passed maxLifetime)
+2022-04-04 11:59:25,875 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73a710c
+2022-04-04 11:59:32,983 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@79928ae8: (connection has passed maxLifetime)
+2022-04-04 11:59:33,004 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21f3de7f
+2022-04-04 11:59:35,770 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5a30f01e: (connection has passed maxLifetime)
+2022-04-04 11:59:35,793 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f342431
+2022-04-04 11:59:39,731 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@54f704f0: (connection has passed maxLifetime)
+2022-04-04 11:59:39,752 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b0bb50f
+2022-04-04 11:59:41,291 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@f0a1a7c: (connection has passed maxLifetime)
+2022-04-04 11:59:41,311 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e092e0a
+2022-04-04 11:59:43,021 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7b22056a: (connection has passed maxLifetime)
+2022-04-04 11:59:43,048 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b61592
+2022-04-04 11:59:44,268 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2e3f9268: (connection has passed maxLifetime)
+2022-04-04 11:59:44,294 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fada639
+2022-04-04 11:59:47,847 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@57ab3a7c: (connection has passed maxLifetime)
+2022-04-04 11:59:47,870 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29f8c30e
+2022-04-04 11:59:48,782 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 11:59:48,783 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:00:18,797 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:00:18,798 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:00:48,802 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:00:48,803 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:01:18,811 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:01:18,812 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:01:24,670 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@18de1016: (connection has passed maxLifetime)
+2022-04-04 12:01:24,710 DEBUG||[PoolBase.java:372][newConnection] HikariPool-1 - Failed to create/setup connection: FATALE: spiacente, troppi client già connessi
+2022-04-04 12:01:24,711 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:24,976 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:25,357 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:25,927 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:26,778 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:28,051 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:29,956 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:32,809 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:37,091 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:43,499 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:01:48,827 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=19, active=0, idle=19, waiting=0)
+2022-04-04 12:01:48,828 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:01:53,118 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@465566a5
+2022-04-04 12:02:18,843 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:02:18,844 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:02:48,846 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:02:48,846 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:03:18,848 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:03:18,849 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:03:48,850 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:03:48,851 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:04:18,865 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:04:18,866 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:04:48,874 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:04:48,875 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:05:18,878 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:05:18,878 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:05:48,891 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:05:48,892 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:06:18,901 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:06:18,902 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:06:48,908 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:06:48,908 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:07:18,910 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:07:18,910 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:07:48,913 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:07:48,913 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:08:18,916 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:08:18,916 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:08:48,931 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:08:48,932 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:09:18,939 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:09:18,940 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:09:48,951 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:09:48,952 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:10:18,966 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:10:18,966 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:10:48,970 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:10:48,970 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:11:18,979 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:11:18,980 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:11:48,998 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:11:48,999 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:12:19,009 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:12:19,010 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:12:49,024 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:12:49,025 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:13:19,036 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:13:19,037 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:13:49,039 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:13:49,040 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:14:19,047 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:14:19,048 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:14:49,062 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:14:49,063 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:15:19,072 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:15:19,073 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:15:49,079 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:15:49,079 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:16:19,095 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:16:19,096 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:16:49,101 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:16:49,103 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:17:19,107 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:17:19,108 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:17:49,114 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:17:49,115 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:18:19,118 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:18:19,118 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:18:49,134 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:18:49,134 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:19:19,145 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:19:19,146 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:19:49,147 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:19:49,147 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:20:19,158 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:20:19,159 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:20:49,159 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:20:49,161 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:21:19,162 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:21:19,163 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:21:49,169 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:21:49,170 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:22:19,184 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:22:19,185 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:22:49,192 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:22:49,193 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:23:19,207 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:23:19,208 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:23:49,213 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:23:49,214 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:24:19,220 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:24:19,221 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:24:49,226 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:24:49,227 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:25:19,242 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:25:19,243 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:25:49,252 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:25:49,253 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:26:19,263 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:26:19,263 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:26:49,270 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:26:49,271 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:27:19,273 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:27:19,274 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:27:49,277 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:27:49,278 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:28:19,289 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:28:19,290 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:28:21,074 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5dd4693d: (connection has passed maxLifetime)
+2022-04-04 12:28:21,110 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d5a1ce2
+2022-04-04 12:28:40,355 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1f8613f1: (connection has passed maxLifetime)
+2022-04-04 12:28:40,374 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d2f9fb7
+2022-04-04 12:28:41,239 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1141fe71: (connection has passed maxLifetime)
+2022-04-04 12:28:41,270 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63e87c62
+2022-04-04 12:28:41,392 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@122e86cc: (connection has passed maxLifetime)
+2022-04-04 12:28:41,408 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67d7f4c7
+2022-04-04 12:28:42,821 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@572c024d: (connection has passed maxLifetime)
+2022-04-04 12:28:42,841 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22d57659
+2022-04-04 12:28:46,448 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6166a7d1: (connection has passed maxLifetime)
+2022-04-04 12:28:46,458 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33968793
+2022-04-04 12:28:48,428 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6ccd9835: (connection has passed maxLifetime)
+2022-04-04 12:28:48,459 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13bdf6ef
+2022-04-04 12:28:49,296 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:28:49,297 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:28:52,428 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@507cf44a: (connection has passed maxLifetime)
+2022-04-04 12:28:52,468 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b145993
+2022-04-04 12:28:53,031 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@53138cf7: (connection has passed maxLifetime)
+2022-04-04 12:28:53,043 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42fa8916
+2022-04-04 12:28:56,843 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7fca7c2f: (connection has passed maxLifetime)
+2022-04-04 12:28:56,862 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@455724c5
+2022-04-04 12:28:59,347 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@157e7881: (connection has passed maxLifetime)
+2022-04-04 12:28:59,368 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3921b80e
+2022-04-04 12:29:00,468 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@73a710c: (connection has passed maxLifetime)
+2022-04-04 12:29:00,487 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5010b678
+2022-04-04 12:29:07,933 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2f342431: (connection has passed maxLifetime)
+2022-04-04 12:29:08,013 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ee38c42
+2022-04-04 12:29:11,089 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6e092e0a: (connection has passed maxLifetime)
+2022-04-04 12:29:11,124 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60246fee
+2022-04-04 12:29:11,137 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@29f8c30e: (connection has passed maxLifetime)
+2022-04-04 12:29:11,153 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@641be732
+2022-04-04 12:29:17,532 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@51b61592: (connection has passed maxLifetime)
+2022-04-04 12:29:17,564 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74863e4e
+2022-04-04 12:29:18,117 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5fada639: (connection has passed maxLifetime)
+2022-04-04 12:29:18,143 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a41ceae
+2022-04-04 12:29:19,306 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:29:19,307 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:29:28,092 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2b0bb50f: (connection has passed maxLifetime)
+2022-04-04 12:29:28,184 DEBUG||[PoolBase.java:372][newConnection] HikariPool-1 - Failed to create/setup connection: FATALE: spiacente, troppi client già connessi
+2022-04-04 12:29:28,185 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:28,451 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:28,831 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:29,401 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:30,251 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:31,524 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:32,892 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@21f3de7f: (connection has passed maxLifetime)
+2022-04-04 12:29:32,901 DEBUG||[HikariPool.java:342][addBagItem] HikariPool-1 - Add connection elided, waiting 0, queue 1
+2022-04-04 12:29:33,429 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:36,290 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:40,563 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:46,972 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:29:49,309 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=18, active=0, idle=18, waiting=0)
+2022-04-04 12:29:49,309 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:29:56,577 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:06,625 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:16,642 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:19,310 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=18, active=0, idle=18, waiting=0)
+2022-04-04 12:30:19,311 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:30:26,650 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:36,670 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:46,690 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:30:49,319 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=18, active=0, idle=18, waiting=0)
+2022-04-04 12:30:49,319 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:30:56,747 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:06,767 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:15,262 DEBUG||[HikariPool.java:342][addBagItem] HikariPool-1 - Add connection elided, waiting 0, queue 2
+2022-04-04 12:31:15,262 DEBUG||[PoolBase.java:134][quietlyCloseConnection] HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@465566a5: (connection has passed maxLifetime)
+2022-04-04 12:31:16,783 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:19,322 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=17, active=0, idle=17, waiting=0)
+2022-04-04 12:31:19,322 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:31:26,831 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@399e7fc
+2022-04-04 12:31:26,836 DEBUG||[PoolBase.java:372][newConnection] HikariPool-1 - Failed to create/setup connection: FATALE: spiacente, troppi client già connessi
+2022-04-04 12:31:26,837 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:26,837 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 250ms
+2022-04-04 12:31:27,110 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:27,110 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 375ms
+2022-04-04 12:31:27,491 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:27,491 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 562ms
+2022-04-04 12:31:28,058 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:28,058 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 843ms
+2022-04-04 12:31:28,915 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d5e19ff
+2022-04-04 12:31:28,916 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=19, active=0, idle=19, waiting=0)
+2022-04-04 12:31:28,920 DEBUG||[PoolBase.java:372][newConnection] HikariPool-1 - Failed to create/setup connection: FATALE: spiacente, troppi client già connessi
+2022-04-04 12:31:28,920 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:28,920 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 250ms
+2022-04-04 12:31:29,185 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:29,185 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 375ms
+2022-04-04 12:31:29,565 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:29,565 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 562ms
+2022-04-04 12:31:30,135 DEBUG||[HikariPool.java:503][createPoolEntry] HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATALE: spiacente, troppi client già connessi
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-04-04 12:31:30,135 DEBUG||[HikariPool.java:736][call] HikariPool-1 - Connection add failed, sleeping with backoff: 843ms
+2022-04-04 12:31:31,010 DEBUG||[HikariPool.java:728][call] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9618c8c
+2022-04-04 12:31:31,011 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:31:49,336 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:31:49,336 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:32:19,350 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:32:19,351 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:32:49,366 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:32:49,367 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:33:19,375 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:33:19,376 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:33:49,391 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:33:49,392 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:34:19,399 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:34:19,399 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:34:49,413 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:34:49,414 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:35:19,426 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:35:19,457 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:35:49,463 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:35:49,464 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:36:19,467 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:36:19,468 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:36:49,472 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:36:49,473 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:37:19,485 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:37:19,486 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:37:49,488 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:37:49,488 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:38:19,498 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:38:19,498 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:38:49,513 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:38:49,514 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:39:19,524 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:39:19,524 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:39:49,528 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:39:49,530 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:40:19,544 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:40:19,574 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:40:49,591 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:40:49,592 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:41:19,603 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:41:19,604 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:41:49,611 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:41:49,612 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:42:19,625 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:42:19,626 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:42:49,635 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:42:49,636 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:43:19,640 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:43:19,640 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:43:49,642 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:43:49,643 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:44:19,655 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:44:19,656 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:44:49,657 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:44:49,658 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:45:19,666 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:45:19,667 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:45:49,670 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:45:49,671 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:46:19,686 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:46:19,686 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:46:49,702 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:46:49,703 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:47:19,709 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:47:19,709 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:47:49,713 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:47:49,713 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:48:19,726 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:48:19,727 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:48:49,738 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:48:49,739 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:49:19,741 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:49:19,742 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:49:49,743 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:49:49,744 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:50:19,750 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:50:19,751 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:50:49,763 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:50:49,764 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:51:19,766 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:51:19,767 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:51:49,783 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:51:49,784 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:52:19,791 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:52:19,792 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:52:49,798 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:52:49,799 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:53:19,802 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:53:19,803 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2022-04-04 12:53:49,805 DEBUG||[HikariPool.java:421][logPoolState] HikariPool-1 - Pool stats (total=20, active=0, idle=20, waiting=0)
+2022-04-04 12:53:49,806 DEBUG||[HikariPool.java:517][fillPool] HikariPool-1 - Fill pool skipped, pool is at sufficient level.
